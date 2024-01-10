@@ -1,0 +1,6 @@
+FROM openzipkin/zipkin:2.21
+
+ARG STORAGE_TYPE
+
+ENV STORAGE_TYPE=${STORAGE_TYPE}
+
